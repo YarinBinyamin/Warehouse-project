@@ -1,4 +1,4 @@
-all:clean bin/warehouse
+all: bin/warehouse
 
 bin/warehouse: bin/Volunteer.o bin/CollectorVolunteer.o bin/LimitedCollectorVolunteer.o bin/DriverVolunteer.o bin/LimitedDriverVolunteer.o bin/Order.o bin/Customer.o bin/SoldierCustomer.o bin/CivilianCustomer.o bin/Action.o bin/WareHouse.o bin/main.o
 	@echo Linking
